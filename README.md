@@ -32,7 +32,7 @@ Algorithm
 代码示例( 全功能分词 )
 
     #encoding=utf-8
-    import genius
+    import scseg
 
     seg_list = scseg.seg_text(u'中国人民站起来了pinyin')
     print '\n'.join(seg_list)
